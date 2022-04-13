@@ -1,7 +1,6 @@
 import { Body, Delete, ForbiddenException, Get, Param, ParseIntPipe, Post, Put } from '@nestjs/common';
 import { CrudEntityRepository } from '../service/crud-entity-repository';
-import { AnyEntity, FindOptions } from '@mikro-orm/core';
-import { EntityData, FilterQuery, Primary } from '@mikro-orm/core/typings';
+import { AnyEntity, FindOptions, EntityData, FilterQuery, Primary } from '@mikro-orm/core';
 import { ControllerBase } from '../../controller/controller.base';
 
 export interface OrmCrudControllerOptions<T extends AnyEntity<T>> {

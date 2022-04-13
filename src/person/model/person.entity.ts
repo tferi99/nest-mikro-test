@@ -1,5 +1,4 @@
-import { assign, Entity, Property } from '@mikro-orm/core';
-import { EntityData } from '@mikro-orm/core/typings';
+import { assign, Entity, EntityData, Property } from '@mikro-orm/core';
 import { OrmIntTimestampEntity } from '../../core/orm/entity';
 import { PersonRepository } from '../person.repository';
 

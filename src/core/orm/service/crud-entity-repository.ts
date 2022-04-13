@@ -1,5 +1,4 @@
-import { AnyEntity, EntityName, EntityRepository } from '@mikro-orm/core';
-import { EntityData, FilterQuery, Primary, RequiredEntityData } from '@mikro-orm/core/typings';
+import { AnyEntity, EntityData, EntityName, EntityRepository, FilterQuery, Primary, RequiredEntityData } from '@mikro-orm/core';
 import { EntityManager } from '@mikro-orm/core/EntityManager';
 
 export interface AssociatedParentEntity<C extends AnyEntity, P extends AnyEntity> {
