@@ -91,5 +91,15 @@ If you disable WebPack in nest-cli.json:
 ```
 then it can run properly. Why?
 
- 
+## Solution
+The problem was that WebPack only supports imports components exported from the root of the package.
 
+So, I replaced:
+```
+import { EntityData, FilterQuery, Primary } from '@mikro-orm/core/typings';
+```
+with 
+```
+import { EntityData, FilterQuery, Primary } from '@mikro-orm/core';
+```
+and now it work properly :)
