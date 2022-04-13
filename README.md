@@ -24,7 +24,8 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+About
+It's a prototype to demonstrate how to use [NestJS](https://github.com/nestjs/nest) with [MikroORM](https://mikro-orm.io/) and WebPack build.
 
 ## Prerequisites
 - install PostgreSQL server
@@ -88,7 +89,7 @@ If you disable WebPack in nest-cli.json:
 ```
 "webpack": false
 ```
-then it can run properly.
+then it can run properly. Why?
 
  
 
