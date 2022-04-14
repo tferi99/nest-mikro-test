@@ -92,6 +92,7 @@ If you disable WebPack in nest-cli.json:
 then it can run properly. Why?
 
 ## Solution
+Fortunately I've opened a [StackOverflow question](https://stackoverflow.com/questions/71858988/i-have-err-package-path-not-exported-error-in-a-nestjs-project-if-mikroorm-upgra/71859220#71859220) and it has been aswered.
 The problem was that WebPack only supports imports components exported from the root of the package.
 
 So, I replaced:
